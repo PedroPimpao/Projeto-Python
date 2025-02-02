@@ -1,0 +1,13 @@
+nome=input('Digite seu nome completo: ')
+maiusc=nome.upper()
+minusc=nome.lower()
+quantidade=len(nome)-nome.count(' ')
+primeiro=nome.split()
+primeiroN=primeiro[0]
+quantidadeP=len(primeiroN)
+print('='*55)
+print('Seu nome em maiúsculas é {}'.format(maiusc))
+print('Seu nome em minúsculas é {}'.format(minusc))
+print('Seu nome completo tem ao todo {} letras'.format(quantidade))
+print('Seu primeiro nome é {} e ele tem {} letras'.format(primeiroN,quantidadeP))
+print('='*55)
