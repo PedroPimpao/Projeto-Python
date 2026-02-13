@@ -1,3 +1,5 @@
+# Leia dois números e mostre: soma, subtração, multiplicação e divisão.
+
 resultado = ''
 operacao = 0
 a = float(input('Insira o valor A: '))

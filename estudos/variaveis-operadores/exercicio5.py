@@ -1,3 +1,5 @@
+# Leia três números e calcule a média.
+
 a = float(input('Insira o valor A:  '))
 b = float(input('Insira o valor B:  '))
 c = float(input('Insira o valor C:  '))

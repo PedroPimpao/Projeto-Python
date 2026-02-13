@@ -1,3 +1,5 @@
+# Leia dois números e diga qual é o maior.
+
 a = int(input("Digite o valor A:  "))
 b = int(input("Digite o valor B:  "))
 
