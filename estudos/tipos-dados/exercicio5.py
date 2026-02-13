@@ -1,3 +1,5 @@
+# Leia um valor e diga se ele é `int`, `float` ou `str`.
+
 numero = input('Insira um valor:  ')
 
 value = int(numero)

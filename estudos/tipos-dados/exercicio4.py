@@ -1,3 +1,5 @@
+# Leia dois valores e verifique se ambos são do tipo int.
+
 numero1 = input('Insira um numero A:  ')
 numero2 = input('Insira um numero B:  ')
 
