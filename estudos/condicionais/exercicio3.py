@@ -1,3 +1,5 @@
+# Leia um número e diga se ele é positivo, negativo ou zero.
+
 numero = 0
 numero = float(input('Insira um número:  '))
 

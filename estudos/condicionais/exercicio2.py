@@ -1,3 +1,5 @@
+# Leia uma nota e diga se o aluno foi aprovado (≥ 6).
+
 nome = ''
 nota = 0
 

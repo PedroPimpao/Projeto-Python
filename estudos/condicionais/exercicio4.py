@@ -1,3 +1,5 @@
+# Leia o salário e calcule um bônus de 10% se for maior que 2000.
+
 salario = 0
 salario = float(input('Digite seu salário:  R$'))
 novo_salario = 0

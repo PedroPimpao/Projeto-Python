@@ -1,3 +1,5 @@
+# Leia a idade de uma pessoa e diga se ela é maior de idade.
+
 nome = ''
 idade = 0
 maior_idade = False

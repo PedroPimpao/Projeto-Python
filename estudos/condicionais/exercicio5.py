@@ -1,3 +1,5 @@
+# Leia dois números e diga se eles são iguais ou diferentes
+
 a = 0
 b = 0
 
