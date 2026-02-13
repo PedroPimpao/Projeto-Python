@@ -1,3 +1,5 @@
+# Escreva um programa que leia dois números e imprima a soma deles.
+
 numero1 = 0
 numero2 = 0
 try: 
