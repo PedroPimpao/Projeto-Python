@@ -118,9 +118,7 @@ ax4.legend(fontsize=8)
 ax5 = fig.add_subplot(3, 2, 5)
 df_100k = df_latest.sort_values("mortes_por_100k", ascending=False)
 ax5.bar(df_100k["state"], df_100k["mortes_por_100k"], color=ORANGE)
-ax5.axhline(df_100k["mortes_por_100k"].mean(), color="black",
-            linestyle="--", linewidth=1,
-            label=f'Média: {df_100k["mortes_por_100k"].mean():.0f}')
+ax5.axhline(df_100k["mortes_por_100k"].mean(), color="black", linestyle="--", linewidth=1, label=f'Média: {df_100k["mortes_por_100k"].mean():.0f}')
 ax5.set_title("Óbitos por 100 mil habitantes", fontweight="bold")
 ax5.set_ylabel("Óbitos / 100k hab.")
 ax5.tick_params(axis="x", rotation=90)
